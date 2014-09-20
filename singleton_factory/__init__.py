@@ -1,5 +1,4 @@
-def get_version():
-    return "0.1"
+__version__ = "1.0"
 
 
 class SingletonFactory(type):

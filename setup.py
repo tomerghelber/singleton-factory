@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 # Dynamically calculate the version based on singleton_factory.VERSION.
-version = __import__('singleton_factory').get_version()
+version = __import__('singleton_factory').__version__
 
 
 setup(
