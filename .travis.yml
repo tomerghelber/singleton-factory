@@ -6,3 +6,5 @@ python:
   - "pypy3"
 # command to run tests
 script: nosetests
+after_success:
+  - coveralls
