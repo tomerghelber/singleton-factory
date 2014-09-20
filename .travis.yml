@@ -8,6 +8,6 @@ python:
 install:
   - pip install coveralls
 # command to run tests
-script: nosetests --with-coverage --cover-package=singleton_fac
+script: nosetests --with-coverage --cover-package=singleton_factory
 after_success:
   - coveralls
