@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/tomerghelber/singleton_factory.svg)](https://travis-ci.org/tomerghelber/singleton_factory/)
+[![Coverage Status](https://coveralls.io/repos/tomerghelber/singleton_factory/badge.png)](https://coveralls.io/r/tomerghelber/singleton_factory)
+
 singleton_factory
 =================
 Python implements for singleton factory pattern.
